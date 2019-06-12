@@ -10,7 +10,7 @@ public class BubleSort {
 				if(array[j] < array[i]) {
 					temp = array[j];
 					array[j] = array[i];
-					array[i] = temp;
+				    array[i] = temp;
 				}
 			}
 		}
@@ -21,7 +21,7 @@ public class BubleSort {
 	public static void main(String args[]) {
 		int[] array = {1,2,34,94,34,7};
 		array =  new BubleSort().sortArray(array);
-		for (int x = 0; x <array.length;x++) {
+		for (int x = 0; x < array.length; x++) {
 			System.out.println(array[x]);
 		}
 	}

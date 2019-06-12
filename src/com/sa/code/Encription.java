@@ -10,7 +10,7 @@ public class Encription {
 		char[] chaArray = keyword.toCharArray();
 		
 		for (int i = 0; i < chaArray.length; i++) {
-			int x = store.containsKey(chaArray[i]) ? store.get(chaArray[i])+1 : 1;
+			int x = store.containsKey(chaArray[i]) ? store.get(chaArray[i])+ 1 : 1;
 			store.put(chaArray[i],x);
 			
 		}

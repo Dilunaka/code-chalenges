@@ -11,7 +11,7 @@ public class BubleSorteRecursion {
 			if (array[i+1] < array[i]) {
 				int temp = array[i+1];
 				array[i+1] = array[i];
-				array[i]= temp;
+				array[i] = temp;
 			}
 			bubleSort(array, length - 1);
 		}
